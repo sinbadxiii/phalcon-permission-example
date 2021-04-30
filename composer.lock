@@ -1,0 +1,177 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8b60d596f5bdb90f9a285c9ae940c9ea",
+    "packages": [
+        {
+            "name": "sinbadxiii/phalcon-auth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sinbadxiii/phalcon-auth.git",
+                "reference": "a57f11980a563b03d0c63fd74ceee9c89726eaa4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sinbadxiii/phalcon-auth/zipball/a57f11980a563b03d0c63fd74ceee9c89726eaa4",
+                "reference": "a57f11980a563b03d0c63fd74ceee9c89726eaa4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sinbadxiii\\PhalconAuth\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergey Mukhin",
+                    "email": "sinbadxiii@gmail.com"
+                }
+            ],
+            "description": "Simple Auth For Phalcon",
+            "keywords": [
+                "Phalcon Auth",
+                "auth",
+                "authorization",
+                "framework",
+                "phalcon"
+            ],
+            "support": {
+                "issues": "https://github.com/sinbadxiii/phalcon-auth/issues",
+                "source": "https://github.com/sinbadxiii/phalcon-auth/tree/master"
+            },
+            "time": "2021-04-12T09:04:13+00:00"
+        },
+        {
+            "name": "sinbadxiii/phalcon-permission",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sinbadxiii/phalcon-permission.git",
+                "reference": "91ff34682bd9045e168a58195973b3326d4005c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sinbadxiii/phalcon-permission/zipball/91ff34682bd9045e168a58195973b3326d4005c3",
+                "reference": "91ff34682bd9045e168a58195973b3326d4005c3",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sinbadxiii\\PhalconPermission\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergey Mukhin",
+                    "email": "sinbadxiii@gmail.com"
+                }
+            ],
+            "description": "Simple User Permission For Phalcon",
+            "keywords": [
+                "Phalcon Permission",
+                "auth",
+                "framework",
+                "permission",
+                "phalcon"
+            ],
+            "support": {
+                "issues": "https://github.com/sinbadxiii/phalcon-permission/issues",
+                "source": "https://github.com/sinbadxiii/phalcon-permission/tree/v1.1.0"
+            },
+            "time": "2021-04-09T04:04:49+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "phalcon/ide-stubs",
+            "version": "v4.0.0-rc.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phalcon/ide-stubs.git",
+                "reference": "51c9b7c331916d46d1f1e1481d6e68a7d712e780"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phalcon/ide-stubs/zipball/51c9b7c331916d46d1f1e1481d6e68a7d712e780",
+                "reference": "51c9b7c331916d46d1f1e1481d6e68a7d712e780",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "3.*",
+                "vimeo/psalm": "^3.4"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Phalcon Team",
+                    "email": "team@phalconphp.com",
+                    "homepage": "https://phalconphp.com/en/team"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/phalcon/ide-stubs/graphs/contributors"
+                }
+            ],
+            "description": "The most complete Phalcon Framework IDE stubs library which enables autocompletion in modern IDEs.",
+            "homepage": "https://phalconphp.com",
+            "keywords": [
+                "Devtools",
+                "Eclipse",
+                "autocomplete",
+                "ide",
+                "netbeans",
+                "phalcon",
+                "phpstorm",
+                "stub",
+                "stubs"
+            ],
+            "support": {
+                "forum": "https://forum.phalconphp.com/",
+                "issues": "https://github.com/phalcon/ide-stubs/issues",
+                "source": "https://github.com/phalcon/ide-stubs"
+            },
+            "time": "2019-11-18T13:10:29+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "sinbadxiii/phalcon-auth": 20,
+        "sinbadxiii/phalcon-permission": 20,
+        "phalcon/ide-stubs": 5
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
