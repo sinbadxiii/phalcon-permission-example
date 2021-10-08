@@ -3,7 +3,7 @@
 use Phalcon\Validation;
 use Phalcon\Validation\Validator\Email as EmailValidator;
 use Sinbadxiii\PhalconAuth\Contracts\RememberingInterface;
-use Sinbadxiii\PhalconAuth\Contracts\RememberTokenterface;
+use Sinbadxiii\PhalconAuth\Contracts\RememberTokenInterface;
 use Sinbadxiii\PhalconAuth\RememberToken\RememberTokenModel;
 use Sinbadxiii\PhalconAuth\Contracts\AuthenticatableInterface;
 use Sinbadxiii\PhalconPermission\Contracts\HavingRoles;
@@ -127,17 +127,21 @@ class Users extends \Phalcon\Mvc\Model implements AuthenticatableInterface, Reme
     }
 
     /**
-     * @return RememberTokenModel
+     * @param string|null $token
+     * @return RememberTokenInterface|null|false
      */
-    public function getRememberToken()
+    public function getRememberToken(string $token = null): ?RememberTokenInterface
     {
-        return $this->remember_token;
+        return $this->getRelated('remember_token', [
+            'token=:token:',
+            'bind' => ['token' => $token]
+        ]);
     }
 
     /**
      * @param $value
      */
-    public function setRememberToken(RememberTokenterface $value)
+    public function setRememberToken(RememberTokenInterface $value)
     {
         $this->remember_token = $value;
     }

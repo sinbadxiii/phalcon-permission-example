@@ -1,6 +1,6 @@
 {
     "require": {
-        "sinbadxiii/phalcon-auth": "dev-master",
+        "sinbadxiii/phalcon-auth": "^v1.0.0",
         "sinbadxiii/phalcon-permission": "dev-master"
     },
     "autoload": {
